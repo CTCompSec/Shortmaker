@@ -203,7 +203,7 @@ videosDownloaded = 0
 def downloadVideo(url):
     url = url
     headers = {
-        "Authorization": "TyWPkfEHN97ZdT19Sd668oUyNRb958kWpxUejouXemhpPMNPFxgYg2H7"
+        "Authorization": ""
     }
     save_dir = f"/home/carlos/ShortMaker/pexels/assets/{audioTitle}"
     os.makedirs(save_dir, exist_ok=True)
